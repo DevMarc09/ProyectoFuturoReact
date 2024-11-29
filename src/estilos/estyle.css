@@ -1,0 +1,62 @@
+:root{
+    --mainDark:#343a40; 
+    --mainGrey:rgba(109,109,109);
+    --mainLightGrey:rgba(172,172,172);
+    --mainWhite:#fff;
+    --mainBlue:#007bff;
+}
+/* linear-gradient(90deg,rgb(5, 129, 57)0%,rgb(79, 79, 80)70%);
+.nav-link{
+    color: var(--mainWhite);
+    }
+*/
+.navbar{
+    background: linear-gradient(90deg,rgb(5, 199, 86)0%,rgb(52, 58, 64)70%);
+    
+}
+.nav-link{
+    color: var(--mainWhite);
+    }
+    #logo-ruta-futuro{
+        border-radius: 20px 10px 50px 30px;
+    -webkit-border-radius: 20px 10px 50px 30px;
+    -moz-border-radius: 20px 10px 50px 30px;
+   
+    }
+    .redes{
+        padding-right: 3rem;
+    }
+ul li a{
+    color: var(--mainGrey);
+    text-decoration: none;
+}
+ul li a:hover{
+    color: var(--mainLightGrey);
+}
+.card{
+    
+    width: 23rem;
+    background-color: #710960;
+}
+.card-body img{
+    width: 60px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    background-color: var(--gray-75);
+    color: #4F0341;
+}
+
+
+
+
+
+
+
+
+
+
